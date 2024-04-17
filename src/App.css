@@ -34,10 +34,15 @@ body {
 }
 
 .background-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
     background: rgb(255, 143, 112);
     background: linear-gradient(90deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
+    width: 100%;
     border-radius: 0 0 0 200px;
 }

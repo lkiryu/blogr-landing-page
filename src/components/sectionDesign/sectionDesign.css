@@ -1,0 +1,39 @@
+.design{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../images/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: 120% 100%;
+    padding: 100px 0;
+    width: 100%;
+}
+
+.info-content{
+    width: 70vw;
+}
+
+.design .title{
+    font-size: 40px;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 80px;
+}
+
+.design .info{
+    width: 550px;
+    align-self: flex-start;
+}
+
+.design .info-title{
+    color: hsl(208, 49%, 24%);
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.design .description{
+    color: hsla(208, 49%, 24%, 80%);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
