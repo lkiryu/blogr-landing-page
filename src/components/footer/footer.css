@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(240, 10%, 16%);
+    width: 100%;
+    border-radius: 0 100px 0 0;
+    padding: 100px 0;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70vw;
+}
+
+.footer .title{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.footer .links li{
+    color: hsl(240, 2%, 79%);
+    margin-bottom: 20px;
+}
