@@ -1,9 +1,11 @@
 import React from "react";
 
+import './about.css'
+
 const About = () => {
     return(
         <section className="about">
-            <div className="infos">
+            <div className="about-content">
                 <div className="info">
                     <h2 className="title">Free, open, simple</h2>
                     <p className="description">Blogr is a free and open source application backed by a large community of helpful developers. It supports
