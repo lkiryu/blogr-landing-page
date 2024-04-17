@@ -1,0 +1,40 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hero .title{
+    color: hsl(0, 0%, 100%);
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero .description{
+    color: hsla(0, 0%, 100%, 80%);
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.hero .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero .buttons a{
+    padding: 15px 30px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    font-weight: 600;
+    border: 1px solid hsl(0, 0%, 100%);
+    color: hsl(356, 100%, 66%);
+}
+
+.hero .buttons a:last-child{
+    background-color: unset;
+    color: hsl(0, 0%, 100%);
+}

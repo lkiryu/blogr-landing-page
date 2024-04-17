@@ -39,4 +39,5 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
+    border-radius: 0 0 0 200px;
 }
