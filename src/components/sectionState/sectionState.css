@@ -1,0 +1,35 @@
+.state{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(237, 17%, 21%);
+    height: 420px;
+    width: 100%;
+    margin: 100px 0;
+    border-radius: 0 200px 0 200px;
+    background-image: url(../../images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+
+.state-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+}
+
+.state .info{
+    width: 520px;
+}
+
+.state .title{
+    font-size: 35px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+
+.state .description{
+    color: hsla(0, 0%, 100%, 80%);
+    line-height: 25px;
+}
