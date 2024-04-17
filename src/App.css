@@ -34,7 +34,9 @@ body {
 }
 
 .background-image {
-    background-image: url(./images/bg-pattern-intro-desktop.svg), linear-gradient(90deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 100%);
+    background: rgb(255, 143, 112);
+    background: linear-gradient(90deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 80vh;
 }

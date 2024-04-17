@@ -1,17 +1,19 @@
 import React from "react";
 import logo from '../../images/logo.svg'
 
+import './header.css'
+
 const Header = () => {
     return (
         <header className="header">
-            <a href="/">
+            <a href="/" className="logo">
                 <img src={logo} alt="logo"></img>
             </a>
 
             <nav>
                 <ul className="nav-list">
                     <li className="nav-link">
-                        <h2 className="title">Product</h2>
+                        <p className="link-title">Product</p>
                         <ul className="links">
                             <li><a href="/">Overview</a></li>
                             <li><a href="/">Pricing</a></li>
@@ -21,7 +23,7 @@ const Header = () => {
                         </ul>
                     </li>
                     <li className="nav-link">
-                        <h2 className="title">Company</h2>
+                        <p className="link-title">Company</p>
                         <ul className="links">
                             <li><a href="/">About</a></li>
                             <li><a href="/">Team</a></li>
@@ -30,7 +32,7 @@ const Header = () => {
                         </ul>
                     </li>
                     <li className="nav-link">
-                        <h2 className="title">Connect</h2>
+                        <p className="link-title">Connect</p>
                         <ul className="links">
                             <li><a href="/">Contact</a></li>
                             <li><a href="/">Newsletter</a></li>
