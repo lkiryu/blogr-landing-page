@@ -10,17 +10,19 @@ import './App.css';
 function App() {
   return (
     <main className="container">
-      <Header/>
+      <div className='background-image'>
+        <Header />
 
-      <Hero/>
+        <Hero />
+      </div>
 
-      <SectionDesign/>
+      <SectionDesign />
 
-      <SectionState/>
+      <SectionState />
 
-      <About/>
+      <About />
 
-      <Footer/>
+      <Footer />
     </main>
   );
 }
