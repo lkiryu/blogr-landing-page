@@ -11,6 +11,12 @@ const Header = () => {
             </a>
 
             <nav>
+                <div className="mobile-menu">
+                    <div className="line1"></div>
+                    <div className="line2"></div>
+                    <div className="line3"></div>
+                </div>
+
                 <ul className="nav-list">
                     <li className="nav-link">
                         <p className="link-title">Product</p>

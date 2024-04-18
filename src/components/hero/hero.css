@@ -40,3 +40,34 @@
     background-color: unset;
     color: hsl(0, 0%, 100%);
 }
+
+@media(max-width:800px){
+    .hero .title{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:500px){
+    .hero{
+        margin-top: 100px;
+    }
+
+    .hero .title{
+        font-size: 30px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .hero .description{
+        text-align: center;
+        width: 300px;
+    }
+
+    .hero .buttons{
+        gap: 20px;
+    }
+
+    .hero .buttons a{
+        padding: 15px 20px;
+    }
+}

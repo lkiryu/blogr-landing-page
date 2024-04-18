@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 40px 0;
 }
@@ -14,6 +14,19 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 60vw;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: hsl(0, 0%, 100%);
+    margin: 8px;
+    transition: 0.3s;
 }
 
 .nav-list {
@@ -39,4 +52,28 @@ nav {
     color: hsl(353, 100%, 62%);
     padding: 15px 35px;
     border-radius: 60px;
+}
+
+@media(max-width:800px){
+    nav {
+        width: 70vw;
+    }
+}
+
+@media(max-width:500px){
+    .header {
+        width: 80vw;
+    }
+
+    nav{
+        width: auto;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .nav-list{
+        display: none;
+    }
 }

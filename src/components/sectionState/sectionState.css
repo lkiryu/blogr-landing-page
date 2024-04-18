@@ -1,4 +1,4 @@
-.state{
+.state {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,24 +12,73 @@
     background-position: 0 100%;
 }
 
-.state-content{
+.state-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 70vw;
 }
 
-.state .info{
+.state .info {
     width: 520px;
 }
 
-.state .title{
+.state .title {
     font-size: 35px;
     color: hsl(0, 0%, 100%);
     margin-bottom: 20px;
 }
 
-.state .description{
+.state .description {
     color: hsla(0, 0%, 100%, 80%);
     line-height: 25px;
+}
+
+@media(max-width:1500px) {
+    .state-content {
+        width: 80vw;
+    }
+}
+
+@media(max-width:1200px) {
+    .state-content {
+        width: 90vw;
+    }
+
+    .state img,
+    .state .info {
+        width: 450px;
+    }
+}
+
+@media(max-width:800px){
+    .state {
+        height: 600px;
+        background-position: 50% 125%;
+        padding: 0 0 200px;
+        margin: 150px 0 100px;
+    }
+
+    .state-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .state img{
+        width: 400px;
+    }
+}
+
+@media(max-width:500px){
+    .state {
+        border-radius: 0 100px 0 100px;
+    }
+
+    .state .info {
+        width: 300px;
+    }
+
+    .state img{
+        width: 300px;
+    }
 }
