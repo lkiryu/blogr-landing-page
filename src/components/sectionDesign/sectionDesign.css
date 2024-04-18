@@ -3,15 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../../images/illustration-editor-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: 700px;
-    background-position: 120% 100%;
     padding: 100px 0;
     width: 100%;
 }
 
 .info-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 70vw;
 }
 
@@ -36,4 +35,8 @@
     color: hsla(208, 49%, 24%, 80%);
     font-size: 18px;
     margin-bottom: 30px;
+}
+
+.design img{
+    width: 550px;
 }
